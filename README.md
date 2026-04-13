@@ -1,6 +1,8 @@
 # NYC-Taxi-Demand-Analysis-Forecasting
 This project analyzes NYC yellow taxi trip data to understand demand patterns, congestion behavior, and short-term forecasting. Using three months of trip data, I explore how urban mobility changes over time and evaluate simple models for predicting demand.
 
+![](https://github.com/lukaszamora/NYC-Taxi-Demand-Analysis-Forecasting/blob/main/1%20-%20plot.png)
+
 ## Objectives
 
 - Identify temporal patterns in taxi demand  
@@ -10,13 +12,13 @@ This project analyzes NYC yellow taxi trip data to understand demand patterns, c
 
 ## Dataset
 
-- NYC Yellow Taxi Trip Data  
+- [NYC Yellow Taxi Trip Data](https://www.kaggle.com/datasets/marcbrandner/tlc-trip-record-data-yellow-taxi?resource=download&select=yellow_tripdata_2022-08.parquet)  
 - Timeframe: August to October 2022  
 - Key fields:
-  - pickup datetime  
-  - dropoff datetime  
-  - trip distance  
-  - fare amount  
+  - `pickup_datetime`  
+  - `dropoff_datetime`  
+  - `trip_distance`  
+  - `fare_amount`  
 
 ## Data Preparation
 
